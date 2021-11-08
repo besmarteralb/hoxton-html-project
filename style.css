@@ -8,14 +8,53 @@ body {
     display: grid;
 }
 
+
 header {
     height: 120px;
     background-color: aqua;
 }
 
+main {
+    display: grid;
+    grid-template-rows: 250px 1fr;
+}
+
 .news-type {
     outline: 1px black solid;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
 }
+
+.news-type .health {
+    outline: 1px black solid;
+    background-image: url(https://img.freepik.com/free-vector/illustration-healthy-lifestyle_53876-28533.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.news-type .sports {
+    outline: 1px black solid;
+    background-image: url(https://media.istockphoto.com/photos/various-sport-equipments-on-grass-picture-id949190736?b=1&k=20&m=949190736&s=170667a&w=0&h=f3ofVqhbmg2XSVOa3dqmvGtHc4VLA_rtbboRGaC8eNo=);
+    background-position: center;
+    background-size: cover;
+}
+
+.news-type .tech {
+    outline: 1px black solid;
+    background-image: url(https://media.istockphoto.com/photos/abstract-graphic-world-map-illustration-on-blue-background-big-data-picture-id1294021851?b=1&k=20&m=1294021851&s=170667a&w=0&h=vsypj3JPqiWOU5q21fX3lHt1Z7wphVNE8kfqdpogPSs=);
+    background-position: center;
+    background-size: cover;
+}
+
+.news-type .lifestyle {
+    outline: 1px black solid;
+    background-image: url(https://img.freepik.com/free-vector/illustration-passion_53876-17884.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
 
 .do-not-miss {
     outline: solid 1px black;
@@ -23,10 +62,7 @@ header {
     grid-template-columns: 1fr 300px;
 }
 
-main {
-    display: grid;
-    grid-template-rows: 250px 1fr;
-}
+
 
 .connect {
     display: grid;
