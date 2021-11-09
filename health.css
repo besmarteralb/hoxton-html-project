@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 100PX 1fr;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: aqua;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+}
+
+.article {
+    padding: 1rem;
+}
