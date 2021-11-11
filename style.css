@@ -7,14 +7,14 @@
 
 body {
     display: grid;
-    background-color: gainsboro;
+    background-color: rgba(218, 224, 230, 1);
     font-family: sans-serif;
 }
 
 header {
     font-family: 'Mochiy Pop P One', sans-serif;
     
-    background-color: royalblue;
+    background-color: #0079d3;
     display: grid;
     grid-template-rows: auto 1fr;
     color: white;   
