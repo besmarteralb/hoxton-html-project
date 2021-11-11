@@ -8,13 +8,13 @@ body {
     display: grid;
     grid-template-rows: 100PX 1fr;
     background-color: rgba(218, 224, 230, 1);
+    font-family: sans-serif;
 
 
 }
 
 header {
-    font-family: 'Mochiy Pop P One', sans-serif;
-    
+
     background-color: royalblue;
     display: grid;
     grid-template-rows: auto 1fr;
@@ -22,10 +22,8 @@ header {
     align-items: center; 
     padding: 1rem;
   
-
     position: fixed;
     width: 100vw;
-
 }
 
 header nav ul {
@@ -54,11 +52,11 @@ main {
     padding-top: 130px;
     display: grid;
     grid-template-columns: 1fr 350px;
-    text-align: justify;
+    
     line-height: 1.6;
     font-size: 1.35rem;
     gap: 1.5rem;
-    padding-left: 80px;
+    padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 1rem;
     margin: 1rem;
@@ -74,10 +72,26 @@ main {
     border-radius: 8px;
     padding: 0.8rem;
     color: rgba(0,0, 0, 0.8);
+    text-align: justify;
     
 }
 
 .article-title {
     text-align: center;
     color: royalblue;
+}
+
+
+.related-title {
+    text-align: start;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.related-page p {
+    text-align: justify;
+    font-size: 1.2rem;
 }
