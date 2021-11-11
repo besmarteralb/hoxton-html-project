@@ -84,7 +84,7 @@ main {
     background-position: center;
     background-size: cover;
     border-radius: 10px;
-    box-shadow: 5px 2px green;
+    box-shadow: 5px 2px blueviolet;
 }
 
 .news-type .tech {
@@ -93,7 +93,7 @@ main {
     background-position: center;
     background-size: cover;
     border-radius: 10px;
-    box-shadow: 5px 2px blue;;
+    box-shadow: 5px 2px blueviolet;;
 }
 
 .news-type .lifestyle {
@@ -169,14 +169,22 @@ main {
 .newsletter {
     display: grid;
     place-content: center;
-    outline: black 1px solid;
     padding: 1rem;
     border-radius: 8px;
     background-color: white;
+    box-shadow: 5px 5px 3px royalblue;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.newsletter-title {
+    text-align: center;
+    padding-bottom: 0.6rem;
+    color: blue;
 }
 
 .newsletter-button {
-    background-color: white;
+    background-color: royalblue;
+    color: white;
 }
 
 .ads {
