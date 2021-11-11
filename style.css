@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +8,11 @@
 body {
     display: grid;
     background-color: gainsboro;
+    font-family: sans-serif;
 }
 
 header {
+    font-family: 'Mochiy Pop P One', sans-serif;
     
     background-color: royalblue;
     display: grid;
@@ -43,6 +46,11 @@ header nav ul a {
     
 }
 
+header nav ul a:hover {
+    color: cornsilk;
+    font-size: 1.2rem;
+}
+
 
 
 main {
@@ -52,25 +60,31 @@ main {
 }
 
 .news-type {
-    outline: 1px black solid;
+    
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0.5rem;
-    padding: 1.5rem;
+    gap: 1.5rem;
+    padding: 2rem;
+    
 }
 
 .news-type .health {
-    outline: 1px black solid;
+    
     background-image: url(https://img.freepik.com/free-vector/illustration-healthy-lifestyle_53876-28533.jpg?size=626&ext=jpg);
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 2px blueviolet;
+   
 }
 
 .news-type .sports {
-    outline: 1px black solid;
+   
     background-image: url(https://media.istockphoto.com/photos/various-sport-equipments-on-grass-picture-id949190736?b=1&k=20&m=949190736&s=170667a&w=0&h=f3ofVqhbmg2XSVOa3dqmvGtHc4VLA_rtbboRGaC8eNo=);
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 2px green;
 }
 
 .news-type .tech {
@@ -78,19 +92,22 @@ main {
     background-image: url(https://media.istockphoto.com/photos/abstract-graphic-world-map-illustration-on-blue-background-big-data-picture-id1294021851?b=1&k=20&m=1294021851&s=170667a&w=0&h=vsypj3JPqiWOU5q21fX3lHt1Z7wphVNE8kfqdpogPSs=);
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 2px blue;;
 }
 
 .news-type .lifestyle {
-    outline: 1px black solid;
     background-image: url(https://img.freepik.com/free-vector/illustration-passion_53876-17884.jpg?size=626&ext=jpg);
     background-position: center;
     background-size: cover;
+    box-shadow: 5px 2px blueviolet;
+    border-radius: 10px;
 }
 
 
 
 .do-not-miss {
-    outline: solid 1px black;
+    
     display: grid;
     grid-template-columns: 1fr 300px;
     gap: 1.5rem;
@@ -99,30 +116,42 @@ main {
 }
 
 .popular-news {
-    outline: 1px solid gray;
+    
     background-color: white;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 3px blueviolet;
+}
+
+.popular-news h2 {
+    text-align: center;
+    color: darkblue;
+    padding-bottom: 1rem;
+}
+
+.popular-news h3:hover {
+    font-size: 1.2rem;
 }
 
 .popular-news .health-news {
-    outline: 1px solid black;
+
     padding: 1rem;
 }
 
+
 .sports-news {
-    outline: 1px solid black;
+   
     padding: 1rem;
 }
 
 .tech-news {
-    outline: solid 1px black;
+    
     padding: 1rem;
 }
 
 
 .lifestyle-news {
-    outline: 1px solid black;
+    
     padding: 1rem;
 }
 
