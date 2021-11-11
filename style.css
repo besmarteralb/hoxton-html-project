@@ -6,8 +6,8 @@
 
 body {
     display: grid;
+    background-color: gainsboro;
 }
-
 
 header {
     
@@ -17,9 +17,10 @@ header {
     color: white;   
     align-items: center; 
     padding: 1rem;
+    border-radius: 5px;
 
     position: fixed;
-    top: 5vw;
+    top: 2.5vw;
     left: 5vw;
     width: 90vw;
     
@@ -95,6 +96,17 @@ main {
     gap: 1.5rem;
     padding: 1rem;
 
+}
+
+.popular-news {
+    outline: 1px solid gray;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.popular-news a {
+    list-style: none;
 }
 
 
