@@ -9,6 +9,9 @@ body {
     display: grid;
     background-color: rgba(218, 224, 230, 1);
     font-family: sans-serif;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    
 }
 
 header {
@@ -30,6 +33,14 @@ header {
 
 }
 
+@media screen and (max-width: 420px) {
+    header nav ul a { 
+        display: none;
+    }
+    
+}
+
+
 header nav ul {
     list-style: none;
     display: grid;
@@ -42,7 +53,7 @@ header nav ul {
 header nav ul a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1rem;
     
 }
 
@@ -55,7 +66,7 @@ header nav ul a:hover {
 
 main {
     display: grid;
-    grid-template-rows: 250px 1fr;
+    grid-template-rows: auto 1fr;
     padding-top: 150px;
 }
 
@@ -65,6 +76,8 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
     padding: 2rem;
+    grid-auto-rows: 200px;
+
     
 }
 
@@ -112,6 +125,15 @@ main {
     grid-template-columns: auto 1fr;
     gap: 1.5rem;
     padding: 1rem;
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .do-not-miss {
+        grid-template-columns: 1fr;
+    }
+    
 
 }
 
