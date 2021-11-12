@@ -88,6 +88,9 @@ main {
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 2px blueviolet;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
    
 }
 
@@ -98,6 +101,7 @@ main {
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 2px blueviolet;
+
 }
 
 .news-type .tech {
@@ -107,6 +111,10 @@ main {
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 2px blueviolet;;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 .news-type .lifestyle {

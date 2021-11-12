@@ -104,7 +104,20 @@ a {
     text-decoration: none;
 }
 
+.related-page{
+    border-radius: 8px;
+    padding: 0.8rem;
+    color: rgba(0,0, 0, 0.8);
+    text-align: justify;
+    gap: 2rem;
+    
+
+}
 .related-page p {
     text-align: justify;
     font-size: 1.2rem;
+}
+
+.related-page img {
+    width: 200px;
 }
