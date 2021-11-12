@@ -109,7 +109,7 @@ main {
 .do-not-miss {
     
     display: grid;
-    grid-template-columns: minmax(800px, 1fr) auto;
+    grid-template-columns: auto 1fr;
     gap: 1.5rem;
     padding: 1rem;
 
